@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,  initial-scale=1.0, maximum-scale=1.0, user-scalable=no”, shrink-to-fit=no">
+
+<meta name="csrf-token" content="FQ91fa6w3Dlp75XlKyZwuoBaBMEFkB1kLrequnCS">
+<title>SILVEREXCH</title>
+<link rel="icon" href="https://dzm0kbaskt4pv.cloudfront.net/v11/static/fav-icon.png?id=43274832745">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link href="https://dzm0kbaskt4pv.cloudfront.net/v11/static/themes/silverexch.com/mobile/theme.css?id=43274832745" rel="stylesheet">
+<link href="https://dzm0kbaskt4pv.cloudfront.net/v11/static/mobile/css/style.css?id=43274832745" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
+<link href="https://dzm0kbaskt4pv.cloudfront.net/v11/static/mobile/css/custom.css?id=43274832745" rel="stylesheet">
+<link rel="stylesheet" href="https://dzm0kbaskt4pv.cloudfront.net/v11/static/mobile/css/flipclock.css?id=43274832745">
+</head>
+<body>
+<div id="app">
+<div id="load">
+<div id="load-inner" class="logo-login">
+<img src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/themes/silverexch.com/front/logo.png" class="img-fluid logo">
+<i class="fa fa-spinner fa-spin"></i>
+</div>
+</div>
+<index></index>
+</div>
+
+<script src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/js/plugins/jquery/jquery.js?id=43274832745" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script type="48693ed1616068d801a8ca3e-text/javascript">
+    document.onreadystatechange = function() {
+      var state = document.readyState
+      if (state == 'interactive') {} else if (state == 'complete') {
+        setTimeout(function() {
+          document.getElementById('interactive');
+          document.getElementById('load').style.visibility = "hidden";
+        }, 1000);
+      }
+    }
+    var APP_URL = "https://silverexch.com";
+    var APP_NAME = "SILVEREXCH.COM";
+    var API_FRONT_BASE_URL = "https://silverexch.com/api";
+    var APK_URL = "http://sportsforallexch.com/app--release.apk";
+    var AUTHAPK_URL = "https://dzm0kbaskt4pv.cloudfront.net/v2/static/img/SecureAuthApp-1.7.apk";
+    var SCOREBOARD_URL = "wss://sportsscore24.com";
+    var SCORESTATS_URL = "https://royalexch999.com/d/scoreanimation";
+    var PUBLIC_PATH = "https://dzm0kbaskt4pv.cloudfront.net/v11/static/";
+    var DOMAIN = "silverexch.com";
+    var ipAddress = localStorage.getItem("clientAddr");;
+    var ENCRYPT_RESPONSE = "1";
+    var DEVICE = "webkit";
+    var D_FRAME = "1";
+    var dev_opts = {};
+    var REGISTER = "";
+    var PAYMENT_ENABLE = "";
+    var RECAPTCHA_SITE_KEY = "6LdB8XoUAAAAAPOghU04UiV1_cBhaebOFq81_rxP";
+    var BLOCKED_REFERER = "";
+  
+    if (DEVICE == 'iphone' || DEVICE == 'ipad') {
+      Object.defineProperty(dev_opts, 'allow', {
+        value: '1',
+        writable: false,
+        enumerable: true,
+        configurable: false
+      });
+    } else {
+      Object.defineProperty(dev_opts, 'allow', {
+        value: "",
+        writable: false,
+        enumerable: true,
+        configurable: false
+      });
+    }
+
+    var placebet = {};
+
+    Object.defineProperty(placebet, 'common', {
+      value: "300",
+      writable: false,
+      enumerable: true,
+      configurable: false
+    });
+    Object.defineProperty(placebet, 'oneday_poker', {
+      value: "480",
+      writable: false,
+      enumerable: true,
+      configurable: false
+    });
+    Object.defineProperty(placebet, 'six_poker', {
+      value: "600",
+      writable: false,
+      enumerable: true,
+      configurable: false
+    });
+    Object.defineProperty(placebet, 'open_teen', {
+      value: "600",
+      writable: false,
+      enumerable: true,
+      configurable: false
+    });
+    Object.defineProperty(placebet, 'andar_bahar', {
+      value: "600",
+      writable: false,
+      enumerable: true,
+      configurable: false
+    });
+    Object.defineProperty(placebet, 'cmeter', {
+      value: "420",
+      writable: false,
+      enumerable: true,
+      configurable: false
+    });
+
+    $(function() {
+      $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+        function(json) {
+          ipAddress = json.ip;
+          localStorage.setItem("clientAddr", json.ip);
+        }
+      );
+    });
+
+    Object.freeze(placebet);
+    Object.seal(placebet);
+    Object.preventExtensions(placebet);
+
+    $(document).on("click", ".worli-matka .nav-item", function() {
+      centerItFixedWidth($(this), $(this).parent());
+    });
+
+    $(document).on("click", ".game-nav-bar .nav-item", function() {
+      centerItFixedWidth($(this), $(this).parent());
+    });
+
+    $(document).on("click", ".slot-nav-bar .nav-item", function() {
+      centerItFixedWidth($(this), $(this).parent());
+    });
+
+    function centerItFixedWidth(target, outer) {
+      var out = $(outer);
+      var tar = $(target);
+      var x = out.width();
+      var y = tar.outerWidth(true);
+      var z = tar.index();
+      var q = 0;
+      var m = out.find('li');
+      //Just need to add up the width of all the elements before our target. 
+      for (var i = 0; i < z; i++) {
+        q += $(m[i]).outerWidth(true);
+      }
+      out.animate({
+        scrollLeft: (Math.max(0, q - (x - y) / 2))
+      }, 500);
+    }
+  </script>
+<script src="https://cdn.rawgit.com/dcodeIO/protobuf.js/6.8.6/dist/protobuf.min.js" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script type="48693ed1616068d801a8ca3e-text/javascript">
+    $protobuf = protobuf;
+  </script>
+<script src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/mobile/js/manifest.js?id=43274832745" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/mobile/js/vendor.js?id=43274832745" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/mobile/js/app.js?id=43274832745" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/mobile/js/flipclock.js?id=43274832745" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/js/customjs.js?id=43274832745" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/js/custom.js?id=43274832745" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script src="https://dzm0kbaskt4pv.cloudfront.net/v11/static/js/messages.js?id=43274832745" type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js' type="48693ed1616068d801a8ca3e-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="48693ed1616068d801a8ca3e-|49" defer=""></script></body>
+</html>
